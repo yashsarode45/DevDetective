@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>DevDetective</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <h1>DevDetective</h1>
+          <div class="mode-btn">
+            <p class="mode-title"></p>
+            <img class="mode-image" src="" alt="" />
+          </div>
+        </header>
+
+        <div class="app">
+          <div class="input-container">
+            <input
+              type="text"
+              class="username"
+              name="username"
+              id=""
+              placeholder="Enter GitHub Username..."
+              required
+            />
+            <p class="no-results">no search results</p>
+            <button class="search-btn">Search</button>
+          </div>
+
+          <div class="profile-container">
+            <div class="profile-content">
+              <div class="profile-header">
+                <img class="profile-pic" src="" />
+                <div class="profile-header-info">
+                  <div>
+                    <h2 class="profile-name"></h2>
+                    <a href="" class="profile-username"></a>
+                  </div>
+                  <p class="profile-date"></p>
+                </div>
+              </div>
+
+              <p class="bio" bio></p>
+
+              <div class="profile-stats-wrapper">
+                <div class="profile-stats">
+                  <p class="stats-title">Repos</p>
+                  <h2 class="repos stats-value"></h2>
+                </div>
+
+                <div class="profile-stats">
+                  <p class="stats-title">Followers</p>
+                  <h2 class="followers stats-value"></h2>
+                </div>
+
+                <div class="profile-stats">
+                  <p class="stats-title">Following</p>
+                  <h2 class="following stats-value"></h2>
+                </div>
+              </div>
+
+              <div class="profile-bottom">
+                <div class="profile-info">
+                  <img
+                    class="bottom-icon"
+                    src="assets/images/location-icon.svg"
+                    alt=""
+                  />
+                  <p class="location"></p>
+                </div>
+
+                <div class="profile-info">
+                  <img
+                    class="bottom-icon"
+                    src="assets/images/website-icon.svg"
+                    alt=""
+                  />
+                  <a class="site"></a>
+                </div>
+
+                <div class="profile-info">
+                  <img
+                    class="bottom-icon"
+                    src="assets/images/twitter-icon.svg"
+                    alt=""
+                  />
+                  <a class="twitter"></a>
+                </div>
+
+                <div class="profile-info">
+                  <img
+                    class="bottom-icon"
+                    src="assets/images/company-icon.svg"
+                    alt=""
+                  />
+                  <p class="institute"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
